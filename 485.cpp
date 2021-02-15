@@ -37,10 +37,10 @@ public:
 };
 
 template <int max, int counter>
-int findMaxConsecutiveOnes(int_sequence<>) { return 0; }
+constexpr int findMaxConsecutiveOnes(int_sequence<>) { return 0; }
 
 template <int max, int counter, int Itop, int... I>
-int findMaxConsecutiveOnes(int_sequence<Itop, I...>)
+constexpr int findMaxConsecutiveOnes(int_sequence<Itop, I...>)
 {
     if constexpr (sizeof...(I) == 0)
     {
@@ -56,7 +56,7 @@ int findMaxConsecutiveOnes(int_sequence<Itop, I...>)
 }
 
 template <int Itop, int... I>
-int findMaxConsecutiveOnes(int_sequence<Itop, I...> _)
+constexpr int findMaxConsecutiveOnes(int_sequence<Itop, I...> _)
 {
     return findMaxConsecutiveOnes<0, 0>(_);
 }
