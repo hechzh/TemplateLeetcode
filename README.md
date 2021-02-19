@@ -2,7 +2,9 @@
 
 ## template programming for leetcode problems
 
-119.cpp add a basic example for how meta programming work and transfer integer_sequence to array
+complie envrionment:gcc-8 -std=c++17
+
+119.cpp add a basic example for how meta programming work and transfer integer sequence to array
 
 449.cpp add some functions to do similar operations as vector does
 
@@ -13,3 +15,5 @@
 566.cpp make a implementation of static matrix structure and reshape the matrix,print members of matrix
 
 765.cpp reduce operation and find and swap operation
+
+995.cpp add push head tail cat methods for integer sequence to help inplementing of algorithm
