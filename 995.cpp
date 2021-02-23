@@ -43,7 +43,7 @@ template <int Itop, int... I>
 constexpr int head(int_sequence<Itop, I...>) { return Itop; }
 
 template <int Itop, int... I>
-constexpr int tail(int_sequence<Itop, I...>) { return int_sequence<I...>(); }
+constexpr auto tail(int_sequence<Itop, I...>) { return int_sequence<I...>(); }
 
 template <int I, int... N>
 constexpr auto cat(int_sequence<N...>) { return int_sequence<I, N...>(); }

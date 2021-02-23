@@ -22,4 +22,6 @@ complie envrionment:gcc-8 -std=c++17
 
 1004.cpp an example of double pointer class algorithm
 
+1052.cpp using head tail to write a short algorithm
+
 1438.cpp double pointer algorithm,similar to 1004
