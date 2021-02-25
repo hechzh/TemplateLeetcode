@@ -20,6 +20,8 @@ complie envrionment:gcc-8 -std=c++17
 
 832.cpp flip and Invert a 0-1 matrix using templates
 
+867.cpp transpose a matrix
+
 995.cpp add push head tail cat methods for integer sequence to help inplementing of algorithm
 
 1004.cpp an example of double pointer class algorithm
