@@ -68,12 +68,7 @@ int Rank(vector<vector<int>> M){
 			i++;
 		}
 	}
-	//cout<<"Success"<<endl;
-	int te;
-	for(te=0;te<R;te++){
-		if(M[R-1-te][C-1]==1) return R-te;
-	}
-	return 0;
+	return i;
 }
 
 struct RIP
